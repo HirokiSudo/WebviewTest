@@ -1,0 +1,78 @@
+﻿<Page x:Class="App1.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:App1"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <!--  ここから  -->
+    <Grid Grid.Row="1" Background="Gray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--  表示しているページのタイトル  -->
+        <TextBlock Margin="10,5"
+                   FontSize="18"
+                   Text="{Binding DocumentTitle,
+                                  ElementName=webView1,
+                                  Mode=OneWay}"
+                   TextTrimming="WordEllipsis" />
+
+        <!--  WebViewコントロール  -->
+        <WebView x:Name="webView1"
+                 Grid.Row="1"
+                 Source="https://www.google.co.jp" />
+
+        <Grid Grid.Row="2" Background="#140079">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Orientation="Horizontal">
+                <!--  ［戻る］ボタン  -->
+                <AppBarButton Margin="0,0,10,0"
+                              Icon="Back"
+                              IsCompact="True"
+                              IsEnabled="{Binding CanGoBack,
+                                                  ElementName=webView1,
+                                                  Mode=OneWay}"
+                              Tapped="buttonGoBack_Tapped" />
+            </StackPanel>
+
+            <!--  アドレス・バー  -->
+            <TextBox x:Name="textBox1"
+                     Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Text="{Binding Source,
+                                    ElementName=webView1,
+                                    Mode=OneWay}" />
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal">
+                <!--  ［GO］ボタン  -->
+                <Button Margin="-2,0"
+                        Content="▶"
+                        Padding="8,4"
+                        Tapped="buttonGo_Tapped" />
+                <!--  ［リフレッシュ］ボタン  -->
+                <AppBarButton Margin="10,0,0,0"
+                              Icon="Refresh"
+                              IsCompact="True"
+                              Tapped="buttonRefresh_Tapped" />
+                <!--  ［進む］ボタン  -->
+                <AppBarButton Icon="Forward"
+                              IsCompact="True"
+                              IsEnabled="{Binding CanGoForward,
+                                                  ElementName=webView1,
+                                                  Mode=OneWay}"
+                              Tapped="buttonGoForward_Tapped" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+    <!--  ここまで  -->
+</Page>
