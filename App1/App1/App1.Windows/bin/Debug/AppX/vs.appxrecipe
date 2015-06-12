@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>6f96ac4c-ac7a-44da-b8ca-0c3987c6c482</PackageIdentityName>
-    <IntermediateOutputPath>C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>729C02BBC9F62AED82F715C86B5FF6AC6F020B61979D91BC0801546A1059726C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6f96ac4c-ac7a-44da-b8ca-0c3987c6c482_1.0.0.0_neutral__rv36yem43g2ja</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6f96ac4c-ac7a-44da-b8ca-0c3987c6c482_rv36yem43g2ja!App</RegisteredUserModeAppID>
@@ -17,50 +17,50 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-06-12T03:39:42.031</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\bin\Debug\App1.Windows.exe">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\App1.Windows.exe">
       <PackagePath>App1.Windows.exe</PackagePath>
       <Modified>2015-06-12T03:45:40.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T19:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T19:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T19:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T19:23:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2015-06-12T03:39:40.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2015-06-12T03:39:40.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\bin\Debug\App1.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\App1.Windows.xr.xml">
       <PackagePath>App1.Windows.xr.xml</PackagePath>
       <Modified>2015-06-12T02:51:48.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2015-06-12T03:39:41.452</Modified>
     </AppxPackagedFile>

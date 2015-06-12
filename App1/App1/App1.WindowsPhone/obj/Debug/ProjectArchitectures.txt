@@ -1,1 +1,1 @@
-C:\workspaces\VisualStudio\MVCTest\App1\App1\App1.WindowsPhone\App1.WindowsPhone.csproj;neutral
+C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.WindowsPhone\App1.WindowsPhone.csproj;neutral
