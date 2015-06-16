@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-06-16T02:46:09.345</Modified>
+      <Modified>2015-06-16T07:14:05.521</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\App1.Windows.exe">
       <PackagePath>App1.Windows.exe</PackagePath>
-      <Modified>2015-06-16T02:47:18.721</Modified>
+      <Modified>2015-06-16T07:14:05.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -50,11 +50,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-06-16T02:46:08.755</Modified>
+      <Modified>2015-06-16T03:58:02.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-06-16T02:46:08.756</Modified>
+      <Modified>2015-06-16T03:58:02.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\App1.Windows.xr.xml">
       <PackagePath>App1.Windows.xr.xml</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\workspaces\VisualStudio\WebviewTest\App1\App1\App1.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-06-16T02:46:09.264</Modified>
+      <Modified>2015-06-16T07:14:05.334</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
