@@ -26,6 +26,7 @@ namespace App1
         {
             this.InitializeComponent();
             this.webView1.NavigationCompleted += webView1_NavigationCompleted;
+            this.webView1.NavigationStarting += webView1_NavigationStarting;
         }
 
         // ［GO］ボタンがタップされた
@@ -63,6 +64,11 @@ namespace App1
             this.webView1.Refresh();
         }
 
+        async void webView1_NavigationStarting(WebView sender, WebViewNavigationStartingEventArgs args)
+        {
+            this.textBox1.Text = args.Uri.ToString();
+        }
+
         async void webView1_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args)
         {
             if (!args.IsSuccess)
@@ -73,7 +79,6 @@ namespace App1
                 string msg = string.Format("サーバ側エラー：{0}（{1}）", errMsg, errCode);
                 await new Windows.UI.Popups.MessageDialog(msg).ShowAsync();
             }
-            this.textBox1.Text = args.Uri.ToString();
         }
 
     }
